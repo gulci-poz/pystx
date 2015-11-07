@@ -68,8 +68,8 @@ list_num = list()
 for n2 in range(13):
     list_num.append(fb.next())
 
-#print [num for num in list_num if num%2 != 0]
-#print [num for num in list_num if num%2 == 0]
+print [num for num in list_num if num%2 != 0]
+print [num for num in list_num if num%2 == 0]
 
 # wyświetla docstring dla metod (callable)
 def obj_attr(obj):
@@ -78,4 +78,4 @@ def obj_attr(obj):
             print getattr(list_num, attr).__doc__
 
 
-obj_attr(list_num)
+#obj_attr(list_num)
